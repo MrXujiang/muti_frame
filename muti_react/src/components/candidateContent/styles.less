@@ -1,0 +1,256 @@
+@family-font: "Microsoft YaHei";
+.candidate-content-box {
+    width: 1200px;
+    min-height: 500px;
+    margin: 0 auto 125px;
+    padding: 0 18px 23px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    font-family: family-font;
+    .ant-tabs-ink-bar {
+        display: none !important;
+    }
+    .ant-tabs-tab-active {
+        // background: #edfafd;
+        border-radius: 20px;
+//      color: @main-color;
+        span.tab-text {
+            display: none !important;
+        }
+        span.tab-text-active {
+            display: inline !important;
+        }
+        span.tab-text-bg {
+            display: inline-block !important;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    .ant-tabs-large .ant-tabs-tab {
+        margin: 10px 2px;
+        padding: 6px 14px;
+        span.tab-text {
+            display: inline;
+        }
+        span.tab-text-active, span.tab-text-bg {
+            display: none;
+        }
+    }
+//  .ant-tabs-nav .ant-tabs-tab:hover {
+//      color: @main-color;
+//  }
+    .ant-tabs-nav-scroll {
+        height: 57px;
+    }
+}
+.resumedetail-box {
+    width: 100%;
+    .resumedetail-lang {
+        text-align: right;
+    }
+    .resume-list {
+        width: 100%;
+        padding: 15px 22px 0;
+    }
+    .evalution-con {
+        width: 100%;
+        padding-left: 30px;
+        p {
+            width: 100%;
+            height: 32px;
+            line-height: 32px;
+            font-size: 14px;
+            color: #707070;
+        }
+    }
+    h2 {
+        width: 100%;
+        line-height: 16px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        vertical-align: top;
+        color: #444444;
+        img {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: top;
+        }
+    }
+    .content-ul {
+        width: 100%;
+        .half-li{
+            width: 50%;
+            .con{
+                width: 350px;
+            }
+        }
+        .whole-li{
+           width: 100%; 
+           .con{
+                width: 700px;
+            }
+        }
+        li {
+            display: inline-block;
+//          height: 32px;
+//          line-height: 32px;
+            font-size: 14px;
+            color: #686b78;
+            .tit {
+                display: inline-block;
+                width: 100px;
+                height: 32px;
+                margin-right: 15px;
+                vertical-align: top;
+                text-align: right;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+    .ant-timeline-item-content {
+        padding: 0 0 0 5px;
+    }
+    .time-expe-con {
+        width: 100%;
+        margin-top: 11px;
+        padding: 0 26px;
+        .time-ul {
+            width: 100%;    
+            padding-bottom: 13px;
+            li {
+                display: inline-block;
+                height: 13px;
+                padding: 0 20px;
+                line-height: 14px;
+                font-size: 14px;
+                vertical-align: middle;
+                color: #707070;
+                border-right: 1px solid #e8e8e8;
+            }
+            li:last-child {
+                border-right: 0;
+            }
+        }
+        .time-con {
+            padding-left: 20px;
+        }
+        .description {
+            display: inline-block;
+            padding-right: 17px;
+            line-height: 26px;
+            vertical-align: top;
+        }
+        .des-con {
+            display: inline-block;
+            line-height: 26px;
+            font-size: 14px;
+            vertical-align: top;
+            color: #8f93a2;
+        }
+    }
+    .ant-timeline-item:nth-last-child(2) {
+        margin: 0 0 30px;
+        padding: 0;
+    }
+    .ant-timeline-item:last-child {
+        padding: 0;
+    }
+    .ant-timeline-item-head {
+        width: 7px;
+        height: 7px;
+        top: 4px;
+        left: 1.4px;
+        border: 1px solid transparent;
+    }
+    .ant-timeline-item-head-blue {
+        border-color: #707078;
+        color: #707078;
+    }
+    .ant-timeline-item-tail {
+        top: -0.5em;
+        height: 110%;
+        border-left: 1px solid #d4d7e6;
+    }
+    .ant-timeline-item {
+        padding: 0 0 30px;
+    }
+    // .anticon {
+    //     display: none;
+    // }
+    .ant-timeline.ant-timeline-pending .ant-timeline-item-last .ant-timeline-item-tail {
+        border-left: 1px solid #d4d7e6;
+    }
+    .ant-timeline-item-head-custom {
+        display: none;
+    }
+    .addition-box {
+        width: 100%;
+        padding: 0 28px;
+        h3 {
+            width: 100%;
+            line-height: 26px;
+            font-size: 14px;
+            color: #353a4b;
+        }
+        .add-con {
+            width: 100%;
+            padding-bottom: 15px;
+            li {
+                width: 100%;
+                height: 32px;
+                line-height: 32px;
+                font-size: 14px;
+                color: #6d6d75;
+            }
+        }
+    }
+}
+.recommend-box {
+    width: 100%;
+    min-height: 285px;
+    padding: 15px 22px;
+    font-family: family-font;
+    h2 {
+        width: 100%;
+        line-height: 16px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        vertical-align: top;
+        color: #444444;
+        img {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: top;
+        }
+    }
+    .rec-substain {
+        width: 100%;
+        padding: 0 25px;
+        line-height: 32px;
+        font-size: 14px;
+        color: #686b78;
+    }
+}
+.ant-tabs{
+    overflow: inherit;
+}
+.content-ul{
+    .con{
+        width: 350px;
+        display: inline-block;
+        word-break: break-all;
+    }
+}
+.split_icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,60 @@
+.ct-steps-wrap {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	.ct-step-item {
+		-webkit-flex: 1;
+		flex: 1;
+		position: relative;
+		padding-top: 10px;
+		.ct-step-trail {
+			width: 100%;
+			height: 2px;
+			margin-top: 3px;
+			background-color: #e8e8e8;
+		}
+		.ct-step-icon {
+			.ct-step-dot {
+				width: 8px;
+			    height: 8px;
+			    border-radius: 8px;
+			    background-color: #bfbfbf;
+			    position: absolute;
+			    left: 0;
+			    top: 10px;
+			}
+		}
+		.ct-step-content {
+			margin-top: 10px;
+			.ct-step-title, .ct-step-description {
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+		}
+		&:last-child {
+			.ct-step-trail {
+				background-color: transparent;
+			}
+		}
+	}
+	.ct-step-completed {
+		.ct-step-trail, .ct-step-icon .ct-step-dot {
+			background-color: #1890ff;
+		}
+		.ct-step-title, .ct-step-description {
+			color: #1890ff;
+		}
+	}
+	.ct-step-current {
+		.ct-step-icon .ct-step-dot {
+			background-color: #1890ff;
+			width: 12px;
+		    height: 12px;
+		    top: 8px;
+		}
+		.ct-step-title, .ct-step-description {
+			color: #1890ff;
+		}
+	}
+}

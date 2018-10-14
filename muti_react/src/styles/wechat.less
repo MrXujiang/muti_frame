@@ -1,0 +1,203 @@
+/*自适应*/
+@media screen and (min-width:319px) and (max-width: 359px) {
+    html {
+       font-size: 85.33px !important;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width: 374px) {
+    html {
+       font-size: 96px !important;
+    }
+}
+
+@media screen and (max-width:411px) and (min-width:375px){
+    html {
+       font-size: 100px !important;
+    }
+}
+
+@media screen and (min-width:412px){
+    html {
+       font-size: 110.4px !important;
+    }
+}
+
+/*reset*/
+html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    border:0;
+    padding:0;
+    font-style:normal;box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+html,body {
+    -webkit-touch-callout:none;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-user-select:none;
+    -webkit-overflow-scrolling: touch;
+}
+
+nav,article,aside,details,main,header,footer,section,fieldset,figcaption,figure{
+    display: block;
+}
+
+header,section,footer {
+    position:relative;
+}
+
+ol,ul{
+    list-style:none;
+}
+
+input,button,textarea {
+    border:0;
+    margin:0;
+    padding:0;
+    font-size:1em;
+    outline: none;
+    line-height:1em;
+    -webkit-appearance:none;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+a, a:visited{
+    text-decoration:none;
+}
+
+input[type=text], input[type=password]{
+    -webkit-appearance: none;
+}
+
+/*基础样式*/
+html, body, #root {
+    height: 100%;
+}
+
+.App-wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+    font-size: 0.14rem;
+}
+
+.App-main {
+    height: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling : touch;
+    text-align: center;
+
+    .wechat-btn-class {
+        height: 0.41rem;
+        line-height: 0.41rem;
+        color: #fff;
+        font-size: 0.16rem;
+        background-color: #18bae2;
+        border-radius: 0.21rem; 
+        margin: 0 0.4rem;
+        display: block;
+        box-shadow: 0 5px 10px rgba(24, 186, 226, 0.23);
+    }
+    .wechat-login-wrap {
+        .wechat-login-img {
+            width: 2.14rem;
+            margin: 1.62rem 0 0.3rem;
+        }
+        .wechat-login-text {
+            font-size: 0.13rem;
+            color: #333;
+            margin-bottom: 1.08rem;
+        }
+        .wechat-btn-class {
+            margin-bottom: 0.275rem;
+        }
+        .wechat-btn-cancel {
+            font-size: 0.16rem;
+            color: #999;
+        }
+    }
+    .wechat-bind-wrap {
+        .wechat-bind-img {
+            max-width: 1.7rem;
+            height: 0.35rem;
+            margin: 1.375rem 0 0.37rem;
+        }
+        .ant-form-item {
+            margin-bottom: 0;
+        }
+        .wechat-form-item {
+            position: relative;
+            margin: 0.17rem 0.4rem 0;
+            .wechat-form-input {
+                height: 0.54rem;
+                line-height: 0.54rem;
+                input {
+                    font-size: 0.15rem;
+                    padding-left: 0.45rem;
+                    border: 0;
+                    border-bottom: 1px solid #e4e4e4;
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        .wechat-btn-class {
+            margin-top: 0.54rem;
+            margin-bottom: 0.275rem;
+        }
+    }
+    .wechat-bind-success {
+        .wechat-success-img {
+            width: 1.055rem;
+            margin: 1.775rem 0 0.32rem;
+        }
+        p {
+            font-size: 0.17rem;
+            color: #333;
+        }
+    }
+    .wechat-bind-fail {
+        .wechat-fail-img {
+            width: 1.83rem;
+            margin: 1.9rem 0 0.36rem;
+        }
+        p {
+            color: #333;
+            font-size: 0.14rem;
+            line-height: 0.24rem;
+            margin-bottom: 0;
+        }
+    }
+}
+.wechat-1-bg {
+    background: url(../images/wechat/wechat-1-top.png) top right no-repeat, url(../images/wechat/wechat-1-bottom.png) bottom left no-repeat;
+    background-size: 100%;
+}
+.wechat-2-bg {
+    background: url(../images/wechat/wechat-2-top.png) top right no-repeat, url(../images/wechat/wechat-2-bottom.png) bottom left no-repeat;
+    background-size: 100%;
+}
+.wechat-3-bg {
+    background: url(../images/wechat/wechat-3-top.png) top right no-repeat, url(../images/wechat/wechat-3-bottom.png) bottom left no-repeat;
+    background-size: 100%;
+}
+.wechat-4-bg {
+    background: url(../images/wechat/wechat-4-top.png) top right no-repeat, url(../images/wechat/wechat-4-bottom.png) bottom left no-repeat;
+    background-size: 100%;
+}

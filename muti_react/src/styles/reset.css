@@ -1,0 +1,62 @@
+﻿@charset 'utf-8';
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong{padding:0;margin:0;text-decoration:none;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+a{text-decoration:none; color:#00c; outline:none;}/*此处待添加默认链接颜色*/
+var,em,strong{font-style:normal;}
+address,caption,cite,code,dfn,em,strong,th,var, optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix { *zoom:1; }
+
+/*********表单默认************/
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button,html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="text"]{-webkit-appearance:button;cursor:pointer;outline:none; border:0;border-radius:0px; }
+button{overflow:visible;border-radius:0px; }
+button,select{text-transform:none}
+button[disabled],html input[disabled],legend{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input{line-height:normal; outline: none; border: none;-webkit-appearance:none}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+html,button,input,select,textarea{font-family:"PingFangSC-Regular","Helvetica Neue",Helvetica,STHeiTi,Arial,sans-serif}
+input::-moz-placeholder,
+textarea::-moz-placeholder,
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{color:#ccc}
+textarea{overflow:auto;resize:vertical}
+
+.am-navbar-dark {
+    color: #333;
+}
+* {
+    box-sizing: border-box;
+    font-family: "microsoft yahei" !important;
+}
+.ant-spin-dot {
+    color: #18BAE2;
+}
+.ant-spin-text {
+    color: #18BAE2;
+}
+.ant-menu-item-active{
+	font-family: "microsoft yahei" !important;
+}

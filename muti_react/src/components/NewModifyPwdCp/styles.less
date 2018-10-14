@@ -1,0 +1,170 @@
+@family-font: "Microsoft YaHei";
+.newmodify-password-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.newmodify-password-box {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 6px 0 20px;
+    background: #fff;
+    border: 1px solid #e3e4e5;
+    .pwd-tab {
+        font-family: "Microsoft YaHei";
+        font-size: 16px;
+        color: #6c6c6c !important;
+    }
+    .ant-tabs-nav {
+        padding-left: 35px;
+    }
+    .ant-tabs-ink-bar {
+        height: 4px;
+        background: #18bae2;
+        z-index: 0;
+        opacity: 0;
+    }
+    .ant-tabs-tab {
+        font-family: "Microsoft YaHei";
+        font-size: 16px;
+        color: #6c6c6c !important;
+    }
+    .ant-tabs-tab-active {
+        position: relative;
+        .tab-bar-line-fixed {
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+        }
+    }
+    .changepwd-box {
+        width: 615px;
+        margin: 25px auto 0;
+        label {
+            display: block;
+            width: 100%;
+            height: 38px;
+            margin-bottom: 8px;
+            line-height: 38px;
+            font-size: 14px;
+            color: #67676f;
+            input {
+                width: 370px;
+                height: 35px;
+                padding: 0 20px;
+                font-size: 14px;
+                vertical-align: top;
+                border: 1px solid #e5e5e5;
+                border-radius: 0 !important;
+            }
+            input::placeholder {
+                color: #c8c8c8;
+            }
+            span {
+                position: relative;
+                display: inline-block;
+                width: 85px;
+                margin-right: 27px;
+                font-family: "Microsoft YaHei";
+                vertical-align: top;
+                text-align: right;
+            }
+            #veri {
+                width: 270px;
+            }
+            span::before {
+                content: "*";
+                position: absolute;
+                top: 3px;
+                left: -2px;
+                font-family: "microsoft yahei";
+                font-size: 14px;
+                color: #ea0f0f;
+            }
+            .warning-box {
+                position: absolute;
+                display: inline-block;
+                padding-left: 22px;
+                font-family: family-font;
+                font-size: 14px;
+                color: #ea0f0f;
+            }
+            .imgbox {
+                display: inline-block;
+                margin: 5px;
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            i {
+                display: inline-block;
+                font-size: 14px;
+                font-style: normal;
+                vertical-align: top;
+                color: #7f7f7f;
+            }
+        }
+        .btn-box {
+            width: 370px;
+            height: 37px;
+            margin: 45px 0 0 110px;
+        }
+        button {
+            width: 170px;
+            height: 100%;
+            line-height: 37px;
+            text-align: center;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            box-shadow: inset 0 0 0 1px #e5e5e5;
+        }
+        .cancel {
+            float: left;
+            background: #fff;
+            color: #18bae2;
+        }
+        .save {
+            float: right;
+            background: #18bae2;
+            color: #fff;
+        }
+    }
+}
+.success_img{
+    width: 60px;
+    height: 60px;
+    margin: 10px auto 25px auto;
+    background-image: url("../../images/imgs/finish.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.email_img{
+    width: 160px;
+    height: 90px;
+    margin: 10px auto 10px auto;
+    background-image: url("../../images/imgs/email-finish.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.finish_page{
+    width: 1200px;
+    margin: 30px auto;
+    background-color: #fff;
+    min-height: 800px;
+    text-align: center;
+    padding-top: 50px;
+    p{
+        line-height: 50px;
+        font-weight: 600;
+    }
+}
+.form_button-cancel{
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 2px 8px rgba(229,229,229, 0.2);
+}

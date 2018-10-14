@@ -1,0 +1,459 @@
+@main-color:#18BAE2;
+@menuColor:#18bae2;
+@menuFontColor:#18bae2;
+@high-light:#2DBEE4;
+
+@family-font: "Microsoft YaHei";
+
+/*组件样式重置 start*/
+.ant-input {
+    border-radius: 0 !important;
+}
+
+.ant-input:focus {
+    border-color: @main-color;
+    border-width: 1px;
+    box-shadow: none;
+}
+
+.ant-select-selection {
+    border-radius: 0 !important;
+}
+
+.ant-table-thead > tr.ant-table-row-hover > td,
+.ant-table-tbody > tr.ant-table-row-hover > td,
+.ant-table-thead > tr:hover > td,
+.ant-table-tbody > tr:hover > td {
+    background: #fafafa !important;
+}
+
+.ant-tabs-ink-bar {
+    opacity: 0;
+}
+
+.ant-tabs-tab-active {
+    position: relative;
+    .tab-bar-line-fixed {
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+    }
+}
+
+.ant-pagination-item-active {
+    background-color: transparent;
+    overflow: hidden;
+    box-shadow: none !important;
+    span {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin: 0;
+    }
+}
+
+.ant-spin .ant-spin-text {
+    color: inherit !important;
+}
+
+/*end*/
+
+.high_light{
+    color: @high-light;
+}
+
+//applyEdit-style
+.candidate-content-box {
+    .ant-tabs-tab-active {
+        color: @main-color;
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover {
+        color: @main-color;
+    }
+}
+//candidateCp-style
+.candidate-box {
+    .classify {
+        .li-sel {
+            border-left: 3px solid @main-color;
+            color: @main-color;
+            padding-left: 22px;
+        }
+        .num-sel {
+            background: @main-color;
+        }
+    }
+    .candidate-content {
+        .candidate-li {
+            .can-title {
+                .pendings {
+                    color: @main-color;
+                }
+                .reply {
+                    .show-box {
+                        border: 1px solid @main-color;
+                        
+                    }
+                    .show-box>div>div:first-child{
+                        overflow: auto!important;
+                    }
+                    .show-box>div>div:last-child>div {
+                        background-color: @main-color !important;
+                    }
+                }
+                .reply-btn {
+                    color: @main-color;
+                }
+                .reply-box {
+                    border: 1px solid @main-color;
+                }
+                .btnbox {
+                    .send {
+                        color: @main-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.ant-pagination-item-active{
+    // background-color: @main-color !important;
+}
+.front_reply{
+    .person-hr, .person-me {
+        background: @main-color;
+    }
+}
+
+//HrReplyCp-style
+.hr-replay-big-wrap {
+    .hr-reply-box {
+        background: @main-color;
+        box-shadow: 0 2px 10px @main-color;
+    }
+    .reply-receive-box {
+        border: 1px solid @main-color;
+    }
+    .reply-btn {
+        color: @main-color;
+    }
+    .reply-input-box {
+        .send {
+            color: @main-color;
+        }
+    }
+    .reply-content {
+        .person-hr, .person-me {
+            background: @main-color;
+        }
+    }
+}
+//indexHeader-style
+.mark_readed{
+    color: @main-color;
+}
+.icon_diamonds{
+    border: 1px solid @main-color;
+}
+.index-header-box {
+    .ant-menu-item-selected, .ant-menu-item-active {
+        color: @menuColor;
+    }
+}
+.bind_success{
+    .wechat_name{
+        color: @main-color;
+    }
+    .icon_success{
+        color: @main-color;
+    }
+    .cancel_btn{
+        color: @main-color;
+    }
+}
+.positioncp-content-box {
+    .position-content-list {
+        .left-box {
+            .salary {
+                color: @main-color;
+            }
+        }
+    }
+}
+
+.bind_success{
+    .wechat_name{
+        color: @main-color;
+    }
+    .icon_success{
+        color: @main-color;
+    }
+    .cancel_btn{
+        color: @main-color;
+    }
+}
+.positiondetail-recommend-resume {
+    box-shadow: 0 2px 20px 0 @main-color;
+}
+.position-list-box {
+    .position-content-list {
+        .left-box {
+            .salary {
+                color: @main-color;
+            }
+        }
+    }
+}
+
+.rec-record-box {
+    font-family: @family-font;
+    .ant-tabs-ink-bar {
+        background: @main-color;
+    }
+    .year-dl {
+        .yearsel {
+            background: @main-color;
+            border-left: 2px solid @main-color;
+        }
+        dd {
+            .span-sel::before {
+                background: @main-color;
+            }
+        }
+    }
+    .detail-box {
+        .showMessage {
+            .text {
+                color: @main-color;
+            }
+        }
+        .process-box {
+            .title {
+                .name {
+                    &:hover {
+                        color: @main-color;
+                    }
+                }
+            }
+        }
+    }
+    .failmessage-box {
+        .fail-li {
+            .big-title {
+                p {
+                    color: @main-color;
+                }
+            }
+            .evaluate {
+                border: 1px solid @main-color;
+                color: @main-color;
+            }
+        }
+    }
+}
+
+.tab_dialog .ant-btn{
+    color: @main-color;
+}
+.tab_dialog .ant-btn-primary{
+    background-color: @main-color;
+    border: 1px solid @main-color;
+}
+.font_link{
+    color: @main-color;
+}
+.font_link:hover{
+    color: @main-color !important;
+}
+.form_button-submit{
+    background-color: @main-color;
+}
+.form_button-cancel{
+    color: @main-color;
+}
+.tab_form .ant-radio-checked .ant-radio-inner{
+    border-color: @main-color;
+}
+.tab_form .ant-radio-inner:after{
+    background-color: @main-color;
+}
+.has{
+   color: @main-color; 
+}
+.block_file-frame .anticon-check-circle{
+    color: @main-color;
+}
+
+.step-box {
+    .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+        background: @main-color !important;
+    }
+    .ant-steps-item-finish .ant-steps-item-title, .ant-steps-item-process .ant-steps-item-title {
+        color: @main-color !important;
+    }
+    .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+        box-shadow: 0 0 0 2px @main-color !important;
+    }
+    .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot:before {
+        border-left-color: @main-color !important;
+    }
+    .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot:after {
+        background: @main-color !important;
+    }
+}
+.rate-default{
+    color: @main-color;
+}
+.form_button-submit{
+    background-color: @main-color;
+}
+.form_button-cancel{
+    color: @main-color;
+}
+.ant-radio-checked .ant-radio-inner{
+    border-color: @main-color;
+}
+.ant-radio-inner:after{
+    background-color: @main-color;
+}
+.after-rec-wrap {
+    .after-rec-box {
+        .message {
+            a {
+                color: @main-color;
+            }
+            span {
+                color: @main-color;
+            }
+        }
+        .cancel {
+            color: @main-color;
+        }
+        .save {
+            background: @main-color;
+        }
+    }
+}
+
+.block_frame-position .ant-tabs-ink-bar{
+    background-color: @main-color;
+}
+.recommend_btn{
+    background-color: @main-color;
+}
+.finish_btn{
+    color: @main-color;
+}
+.finish_btn:hover{
+    color: @main-color;
+}
+.tab_inner .ant-pagination-item-active{
+    // background-color: @main-color !important;
+}
+.ant-pagination-item{
+//  background-color: @main-color;
+}
+
+.bg-box {
+    .scavenge, .account {
+        background: @main-color url(../images/imgs/scavenge.png) center 18px no-repeat;
+        font-family: @family-font;
+    }
+    .account {
+        background: @main-color url(../images/imgs/account.png) center 18px no-repeat; 
+    }
+}
+
+.position_detail a{
+    color: @high-light;
+}
+.position-list-box {
+    .tabs-box {
+        .ant-tabs-ink-bar {
+            background: @main-color;
+        }
+    }
+    .pagenum-show-box {
+        span {
+            color: @main-color;
+        }
+    }
+    .center-box {
+            li {
+                strong {
+                    color: @main-color;
+                }
+            }
+        }
+}
+
+.search_drop{
+    border: 1px solid @main-color !important;
+}
+
+.login-form {
+    // #userName,#password{
+    //     height:32px;
+    // }
+    // input{
+    //     // [;height:20px;line-height:normal;padding:10px 0 0 30px;]/*safari hack*/
+    // }
+}
+// .text_lanType{
+//     color: @main-color !important;
+//     a{
+//         color: @main-color !important;
+//     }
+//     .link_border{
+//         border: 1px solid @main-color;
+//     }
+// }
+.form_button-submit{
+    background-color: @main-color;
+}
+.logo-empty{
+    width: 145px;
+    height: 122px;
+    margin: 100px auto 30px auto;
+    background-image: url("../images/imgs/table-no-data.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.finish_block{
+    background-color: #fff;
+    text-align: center;
+}
+.empty_text{
+    font-size: 16px;
+    color: #6D6D6D;
+}
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.confirm_box .ant-btn-primary{
+    background-color: transparent;
+    border-color: transparent;
+}
+.confirm_box .anticon{
+     display: none;   
+}
+.ant-layout-header{
+    padding: 0;
+}

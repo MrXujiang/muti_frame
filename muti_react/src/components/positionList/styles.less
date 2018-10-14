@@ -1,0 +1,341 @@
+.position-list-box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    .list-line {
+        position: absolute;
+        top: 62px;
+        left: 0;
+        // width: 1366px;
+        width: 100%;
+        height: 1px;
+        background: #e5e5e5;
+    }
+    .position-title-box {
+        position: relative;
+        width: 1200px;
+//      padding: 0 6%;
+        margin: 0 auto;
+    }
+    .tabs-box {
+        overflow: visible;
+        .ant-tabs-bar {
+            height: 100%;
+            margin: 0;
+            border-bottom: 0;
+        }
+        .ant-tabs-tab {
+            margin-right: 43px;
+            font-weight: 400;
+            padding: 12px;
+            font-family: "microsoft yahei";
+            font-size: 16px;
+            color: #bbbbbb;
+            -webkit-user-select: none;
+        }
+        .ant-tabs-tab-active {
+            color: #6c6c6c;
+        }
+        .ant-tabs-ink-bar {
+            bottom: -1px;
+            height: 4px;
+//          background: #18bae2;
+            z-index: 0;
+        }
+        .ant-tabs-nav-container {
+            height: 100%;
+        }
+        .ant-tabs-nav-wrap {
+            height: 100%;
+        }
+        .ant-tabs-nav-scroll {
+            overflow: initial;
+            height: 100%;
+        }
+        .ant-tabs-nav {
+            height: 100%;
+            line-height: 40px;
+        }
+    }
+    .pagenum-show-box {
+        position: absolute;
+        top: 0;
+        right: 0%;
+        height: 64px;
+        line-height: 84px;
+        font-family: "microsoft yahei";
+        color: #b2b2b2;
+        span {
+            padding: 0 8px;
+//          color: #18bae2;
+        }
+    }
+    .position-content-box {
+        width: 100%;
+        min-height: 400px;
+        padding: 35px 0 45px 0;
+        text-align: center;
+    }
+    .position-content-list {
+        width: 1200px;
+        height: 143px;
+        margin-bottom: 13px;
+        padding: 32px 32px 25px;
+        background: #f9f9f9;
+        border: 1px solid #f2f2f2;
+        .left-box {
+            float: left;
+            width: 450px;
+            .post-name {
+                word-break: keep-all;
+                width: 100%;
+                line-height: 18px;
+                font-size: 18px;
+                font-family: "microsoft yahei";
+                text-align: left;
+                color: #000000;
+                &:hover {
+//                  color: @main-color;
+                }
+                span {
+                    display: inline-block;
+                    max-width: 90%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    color: #000;
+                }
+                i {
+                    position: relative;
+                    display: inline-block;
+                    width: 37px;
+                    height: 19px;
+                    line-height: 19px;
+                    margin-left: 10px;
+                    background: #00ba99;
+                    font-size: 12px;
+                    text-align: center;
+                    font-style: normal;
+                    border-radius: 3px;
+                    vertical-align: top;
+                    color: #fff;
+                    // background: url("../../images/icons/new-icon.png") 0 3px no-repeat;
+                    // background-size: contain;
+                    // vertical-align: middle;
+                }
+                i::after {
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    content: "";
+                    width: 5px;
+                    height: 4px;
+                    border: 5px solid transparent;
+                    border-left-color: #00ba99;
+                }
+            }
+            .post-detail {
+                width: 100%;
+                line-height: 18px;
+                padding: 12px 0;
+                font-size: 16px;
+                text-align: left;
+            }
+            .salary {
+                display: inline-block;
+                padding-right: 3px;
+                vertical-align: middle;
+//              color: @main-color;
+            }
+            .post-mes {
+                display: inline-block;
+                vertical-align: middle;
+//              width: 300px;
+                overflow: hidden;
+                cursor: pointer;
+//              text-overflow: ellipsis;
+//              white-space: nowrap;
+                font-family: "microsoft yahei";
+                span {
+                    padding: 0 11px;
+                    font-size: 14px;
+                    color: rgba(0,0,0,.8);
+                    display: inline-block;
+                    vertical-align: middle;
+                    max-width: 100px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    border-right: 1px solid rgba(0,0,0,.4);
+                }
+                span:last-child {
+                    border-right: 0;
+                }
+            }
+            .post-time {
+                line-height: 14px;
+                font-family: "microsoft yahei";
+                font-size: 14px;
+                text-align: left;
+            }
+            span {
+                color: rgba(0,0,0,.5);
+            }
+            .release-time {
+                padding-right: 35px;
+            }
+        }
+        .center-box {
+            float: left;
+            height: 60px;
+            margin: 10px 0 4px;
+            padding: 0 19px;
+            border-left: 1px solid #e0e0e0;
+            border-right: 1px solid #e0e0e0;
+            li {
+                display: inline-block;
+                text-align: center;
+                width: 80px;
+                cursor: pointer;
+                strong {
+                    display: inline-block;
+                    max-width: 60px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    padding-bottom: 15px;
+                    line-height: 24px;
+                    font-size: 24px;
+                    font-weight: bold;
+//                  color: #18bae2;
+                }
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    line-height: 14px;
+                    font-family: "microsoft yahei";
+                    font-size: 14px;
+                    color: #7c7c7c;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+            }
+        }
+        .right-box {
+            padding-left: 19px;
+        }
+        .bussiness-card {
+            float: left;
+            margin-top: 10px;
+            padding-left: 18px;
+            display: inline-block;
+            vertical-align: middle;
+            min-width: 200px;
+            .name {
+                width: 100%;
+                line-height: 16px;
+                text-align: left;
+                span:first-child {
+                    padding-right: 10px;
+                    font-family: "microsoft yahei";
+                    font-size: 16px;
+                    color: #323232;
+                }
+                span:last-child {
+                    font-size: 12px;
+                    font-family: "microsoft yahei";
+                    color: #18bae2;
+                }
+            }
+            .tel, .mail {
+                margin: 10px 0;
+                padding-left: 18px;
+                line-height: 12px;
+                font-family: "microsoft yahei";
+                font-size: 12px;
+                text-align: left;
+                background: url(../../images/icons/tel_icon.png) 0 center no-repeat;
+                background-size: 12px 12px;
+                color: #7c7c7c;
+            }
+            .mail {
+                margin: 0;
+                background: url(../../images/icons/mail_icon.png) 0 center no-repeat;
+                background-size: 12px 12px;
+            }
+        }
+        .recommend-resume {
+            float: right;
+            position: relative;
+            display: inline-block;
+            width: 48px;
+            height: 77px;
+            // margin-left: 46px;
+            background-size: 48px 57px;
+            text-align: left;
+            vertical-align: middle;
+            cursor: pointer;
+            .recommend-icon {
+                width: 48px;
+                height: 48px;
+                line-height: 43px;
+                border-radius: 24px;
+                text-align: center;
+                display: block;
+                img {
+                    display: inline-block;
+                }
+            }
+            span {
+                display: inline-block;
+                font-family: "microsoft yahei";
+                font-size: 12px;
+                color: #18bae2;
+            }
+            i {
+                position: absolute;
+                bottom: 0;
+                font-style: normal;
+            }
+        }
+    }
+}
+.position-list-spin {
+    line-height: 400px;
+}
+.home_pageBlock{
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    .ant-pagination-item-active{
+        color: #fff;
+    //  background-color: @main-color;
+        box-shadow: 0 2px 8px rgba(24,186,226, 0.5);
+    }
+    .ant-pagination-item{
+        border-radius: 50%;
+        border: none;
+        background-color: transparent;
+    }
+    .ant-pagination-item-active a{
+        color: #fff !important;
+    }
+    .ant-pagination-prev .ant-pagination-item-link,.ant-pagination-next .ant-pagination-item-link{
+        border: none;
+        color: #ACACAC;
+    }
+    .ant-pagination-options-quick-jumper input{
+        border: 1px solid #E5E5E5;
+    }
+    .ant-pagination-prev{
+        a{
+            background-color: transparent;
+        }
+    }
+    .ant-pagination-next{
+        a{
+            background-color: transparent;
+        }  
+    }
+}

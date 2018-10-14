@@ -1,0 +1,212 @@
+.positioncp-content-box {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    .position-content-list {
+        width: 1200px;
+        height: 143px;
+        margin: 13px auto;
+        padding: 32px 32px 25px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        .left-box {
+            float: left;
+            width: 450px;
+            .post-name {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                word-break: keep-all;
+                white-space: nowrap;
+                width: 100%;
+                line-height: 18px;
+                font-size: 18px;
+                font-family: "microsoft yahei";
+                text-align: left;
+                color: #000000;
+                i {
+                    position: relative;
+                    display: inline-block;
+                    width: 37px;
+                    height: 19px;
+                    line-height: 19px;
+                    margin-left: 10px;
+//                  background: #00ba99;
+                    font-size: 12px;
+                    text-align: center;
+                    font-style: normal;
+                    border-radius: 3px;
+                    vertical-align: top;
+                    color: #fff;
+                }
+            }
+            .post-detail {
+                width: 100%;
+                line-height: 18px;
+                padding: 12px 0;
+                font-size: 18px;
+                text-align: left;
+                white-space: nowrap;
+            }
+            .salary {
+                display: inline-block;
+                padding-right: 3px;
+                vertical-align: middle;
+//              color: @main-color;
+                max-width: 140px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .post-mes {
+                display: inline-block;
+                vertical-align: middle;
+                font-family: "microsoft yahei";
+                overflow: hidden;
+                cursor: pointer;
+//              white-space: nowrap;
+//              max-width: 400px;
+//              text-overflow: ellipsis;
+                span {
+                    padding: 0 11px;
+                    font-size: 14px;
+                    color: #555555;
+                    max-width: 25%;
+                    display: inline-block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    border-right: 1px solid #555555;
+                }
+                span:last-child {
+                    border-right: 0;
+                }
+            }
+            .post-time {
+                line-height: 14px;
+                font-family: "microsoft yahei";
+                font-size: 14px;
+                text-align: left;
+            }
+            span {
+                color: #858585;
+            }
+            .release-time {
+                padding-right: 35px;
+            }
+        }
+        .center-box {
+            float: left;
+            height: 60px;
+            margin: 10px 0 4px;
+            padding: 0 19px;
+            border-left: 1px solid #e0e0e0;
+//          border-right: 1px solid #e0e0e0;
+            li {
+                display: inline-block;
+                text-align: center;
+                cursor: pointer;
+                strong {
+                    display: inline-block;
+                    width: 100%;
+                    padding-bottom: 15px;
+                    line-height: 24px;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #18bae2;
+                }
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    line-height: 14px;
+                    font-family: "microsoft yahei";
+                    font-size: 14px;
+                    color: #7c7c7c;
+                }
+            }
+        }
+        .right-box {
+            float: left;
+            padding-left: 19px;
+            border-left: 1px solid #e0e0e0;
+        }
+        .bussiness-card {
+            overflow: hidden;
+            float: left;
+            margin-top: 10px;
+            padding-left: 18px;
+            display: inline-block;
+            vertical-align: middle;
+            .name {
+                width: 100%;
+                line-height: 16px;
+                text-align: left;
+                span:first-child {
+                    padding-right: 10px;
+                    font-family: "microsoft yahei";
+                    line-height: 16px;
+                    font-size: 16px;
+                    color: #323232;
+                }
+                span:last-child {
+                    line-height: 12px;
+                    font-size: 12px;
+                    font-family: "microsoft yahei";
+                    color: #18bae2;
+                }
+            }
+            .tel, .mail {
+                margin: 10px 0;
+                padding-left: 18px;
+                font-family: "microsoft yahei";
+                line-height: 12px;
+                font-size: 12px;
+                text-align: left;
+                background: url(../../images/icons/tel_icon.png) 0 center no-repeat;
+                background-size: 12px 12px;
+                color: #7c7c7c;
+            }
+            .mail {
+                margin: 0;
+                background: url(../../images/icons/mail_icon.png) 0 center no-repeat;
+                background-size: 12px 12px;
+            }
+        }
+        .recommend-resume {
+            float: right;
+            position: relative;
+            display: inline-block;
+            width: 48px;
+            height: 77px;
+            margin-left: 46px;
+            background: url(../../images/icons/recommend-icon.png) 0 0 no-repeat;
+            background-size: 48px 57px;
+            text-align: left;
+            vertical-align: middle;
+            cursor: pointer;
+            span {
+                display: inline-block;
+                font-family: "microsoft yahei";
+                font-size: 12px;
+                color: #18bae2;
+            }
+            i {
+                position: absolute;
+                bottom: 0;
+                font-style: normal;
+            }
+        }
+    }
+    .postnew{
+        display: inline-block;
+        vertical-align: middle;
+        width: 39px;
+        height: 26px;
+        background-size: 100% 100%;
+        background-image: url("../../images/icons/new-icon.png");
+    }
+}
+.position-content-list:hover{
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
